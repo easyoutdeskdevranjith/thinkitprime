@@ -5,7 +5,7 @@
                 <div class="row ">
 
                     <div class="col-lg-6 ps-lg-5 bg-black p-5">
-                        <img class="img-value-1" src="assets/images/BackgroundImg/contactus_img.png">
+                        <img class="img-value-1" src="<?=base_url("/assets/images/BackgroundImg/contactus_img.png");?>" loading="lazy">
                         <div>
                             <h3 class="contact-info__title text-white">Get a free consultancy from our expert right now!</h3>
                             <p class="contact-info__desc">With lots of unique blocks, you can easily build a page without coding. Build your next landing page so quickly with Albino. </p>
@@ -51,10 +51,10 @@
         <!-- ======================= Become seller section End ==================== -->
 
         <footer class="footer text-xs-center">
-            <img src="assets/images/shapes/pattern.png" alt="" class="bg-pattern">
-            <img src="assets/images/shapes/element1.png" alt="" class="element one">
-            <img src="assets/images/shapes/element2.png" alt="" class="element two">
-            <img src="assets/images/gradients/footer-gradient.png" alt="" class="bg--gradient">
+            <img src="assets/images/shapes/pattern.png" alt="" class="bg-pattern" loading="lazy">
+            <img src="assets/images/shapes/element1.png" alt="" class="element one" loading="lazy">
+            <img src="assets/images/shapes/element2.png" alt="" class="element two" loading="lazy">
+            <img src="assets/images/gradients/footer-gradient.png" alt="" class="bg--gradient" loading="lazy">
 
             <div class="container container-two">
                 <div class="row gy-5">

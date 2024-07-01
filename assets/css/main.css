@@ -3645,7 +3645,7 @@ input[type=number] {
     margin-top: auto;
     position: relative;
     z-index: 1;
-    background-image: url(../images/shapes/footer-bg.png);
+    background-image: url(../images/shapes/footer-bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;

@@ -10,7 +10,7 @@
         <?php include('header.php') ?>
         <!--========================== Banner Section Start ==========================-->
         <section class="banner section-bg z-index-1">
-            <img src="assets/images/gradients/banner-gradient.png" alt="" class="bg--gradient">
+            <img src="<?=base_url('/assets/images/gradients/banner-gradient.webp')?>" alt="" class="bg--gradient" loading="lazy">
 
 
 
@@ -50,7 +50,7 @@
                             </div>
                         </div>
                         <div class="col-lg-7 ps-lg-5  text-center">
-                            <img class="img-value-2" width="1000" height="1000" src="assets/svg/aboutus-1.svg">
+                            <img class="img-value-2" width="1000" height="1000" src="<?=base_url('/assets/svg/aboutus-1.svg');?>">
                         </div>
                       
                     </div>
@@ -72,10 +72,10 @@
 
          
         <section class="top-performance overflow-hidden padding-y-120 position-relative z-index-1">
-    <img src="assets/images/shapes/spider-net.png" alt="" class="spider-net position-absolute top-0 end-0 z-index--1">
-    <img src="assets/images/shapes/pattern-curve-four.png" alt="" class="position-absolute top-0 start-0 z-index--1">
+    <img src="assets/images/shapes/spider-net.png" alt="" class="spider-net position-absolute top-0 end-0 z-index--1" loading="lazy">
+    <img src="assets/images/shapes/pattern-curve-four.png" alt="" class="position-absolute top-0 start-0 z-index--1" loading="lazy">
 
-    <img src="assets/images/shapes/element2.png" alt="" class="element two">
+    <img src="assets/images/shapes/element2.png" alt="" class="element two" loading="lazy">
     
     <div class="container container-two">
         <div class="row gy-4 align-items-center flex-wrap-reverse">
@@ -83,7 +83,7 @@
                 <div class="position-relative">
                     <div class="circle style-two">
                         <div class="circle__badge">
-                            <img src="assets/images/icons/featured-badge.png" alt="">
+                            <img src="assets/images/icons/featured-badge.png" alt="" loading="lazy">
                         </div>
                         <div class="circle__desc circle__text">
                         </div>

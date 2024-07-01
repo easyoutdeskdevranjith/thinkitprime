@@ -1,10 +1,10 @@
 <!--==================== Preloader Start ====================-->
-<div class="loader-mask">
+<!-- <div class="loader-mask">
   <div class="loader">
       <div></div>
       <div></div>
   </div>
-</div>
+</div> -->
 <!--==================== Preloader End ====================-->
 
 <!--==================== Overlay Start ====================-->
@@ -28,7 +28,7 @@
     <button type="button" class="close-button"> <i class="las la-times"></i> </button>
     <div class="mobile-menu__inner">
         <a href="#" class="mobile-menu__logo">
-            <img src="assets/images/logo/logo.png" alt="Logo">
+            <img src="assets/images/logo/logo.png" alt="Logo" loading="lazy">
         </a>
         <div class="mobile-menu__menu">
              
@@ -100,11 +100,11 @@
                 
     <a href="#" class="btn btn-main pill">
         <span class="icon-left icon"> 
-            <img src="assets/images/icons/user.svg" alt="">
+            <img src="<?=base_url("/assets/images/icons/user.svg");?>" alt="" loading="lazy">
         </span>Create Account  
     </a>
     <div class="language-select flx-align select-has-icon">
-        <img src="assets/images/icons/globe.svg" alt="" class="globe-icon">
+        <img src="<?=base_url("/assets/images/icons/globe.svg");?>" alt="" class="globe-icon" loading="lazy">
         <select class="select py-0 ps-2 border-0 fw-500">
             <option value="1">Eng</option>
             <option value="2">Bn</option>

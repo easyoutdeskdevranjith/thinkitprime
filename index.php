@@ -10,11 +10,11 @@
         <?php include('header.php') ?>
         <!--========================== Banner Section Start ==========================-->
         <section class="banner section-bg z-index-1">
-            <img src="assets/images/gradients/banner-gradient.png" alt="" class="bg--gradient">
+            <img src=<?= base_url("/assets/images/gradients/banner-gradient.webp"); ?> alt="" class="bg--gradient" >
 
             <!-- <img src="assets/images/shapes/element-moon1.png" alt="" class="element one"> -->
-            <img src="assets/images/BackgroundImg/setting1.png" width="200" height="200" alt="" class="element one">
-            <img src="assets/images/BackgroundImg/settingRight.png" width="200" height="200" alt="" class="element two">
+            <img src=<?= base_url("/assets/images/BackgroundImg/setting1.png"); ?> width="200" height="200" alt="" class="element one">
+            <img src=<?= base_url("/assets/images/BackgroundImg/settingRight.png"); ?> width="200" height="200" alt="" class="element two" >
 
             <div class="container container-two">
                 <div class="row align-items-center gy-sm-5 gy-4">
@@ -55,71 +55,60 @@
         <!--========================== Banner Section End ==========================-->
 
         <!-- ======================== popular Section Start =========================== -->
-        <section class="popular padding-y-120 overflow-hidden">
+        <section class="popular padding-y-30 overflow-hidden">
+            <div class="section-heading style-center mb-64">
+                <h5 class="section-heading__title home-second-part">Our Value Proposition</h5>
+            </div>
+
             <div class="container container-two">
-                <div class="section-heading style-center mb-64">
-                    <h5 class="section-heading__title home-second-part">Our Value Proposition</h5>
-                </div>
-                <div class="container container-two">
-                    <div class="row ">
+                <div class="row justify-content-center align-items-center">
 
-                        <div class="col-lg-6 ps-lg-5">
-                            <img class="img-value-1" src="assets/images/BackgroundImg/value_img_1.png">
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="contact-info">
-                                <h3 class="contact-info__title">Product Services</h3>
-                                <p class="contact-info__desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                                <p class="contact-info__desc">we have impelemented a number of safety protocols
-                                    and measures to ensures the safety of both our
-                                    patients and our time </p>
+                    <div class="col-lg-6 ps-lg-5">
+                        <img class="img-value-1" src=<?= base_url("/assets/images/BackgroundImg/value_img_1f.webp"); ?> loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contact-info">
+                            <h3 class="value-part-title">Product Services</h3>
+                            <p class="value-part-desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                            <p class="value-part-desc">we have impelemented a number of safety protocols
+                                and measures to ensures the safety of both our
+                                patients and our time </p>
 
-
-
-                                <div class="mt-24">
-                                    <a type="submit" class="btn btn-main ">View More</a>
-
-                                </div>
+                            <div class="mt-24">
+                                <a type="submit" class="btn btn-main ">View More</a>
 
                             </div>
+
                         </div>
                     </div>
                 </div>
-
-
             </div>
+
         </section>
-        <section class="  ">
-            <div class="container container-two">
+        <section class="container container-two">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-sm-12 ">
+                    <div class="text-end">
+                        <h3 class=" value-part-title">Product Services</h3>
+                        <p class="value-part-desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                        <p class="value-part-desc">we have impelemented a number of safety protocols
+                            and measures to ensures the safety of both our
+                            patients and our time </p>
+                        <div class="mt-24">
+                            <a type="submit" class="btn btn-main ">View More</a>
 
-                <div class="container container-two">
-                    <div class="row ">
-                        <div class="col-lg-5">
-                            <div class="text-end">
-                                <h3 class="contact-info__title">Product Services</h3>
-                                <p class="contact-info__desc">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
-                                <p class="contact-info__desc">we have impelemented a number of safety protocols
-                                    and measures to ensures the safety of both our
-                                    patients and our time </p>
-
-
-
-                                <div class="mt-24">
-                                    <a type="submit" class="btn btn-main ">View More</a>
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="col-lg-7 ps-lg-5  text-center">
-                            <img class="img-value-2" src="assets/images/BackgroundImg/value_img_2.png">
                         </div>
 
                     </div>
                 </div>
-
+                <div class="col-lg-6  col-sm-12">
+                    <div class="img-value-2 text-center  m-auto">
+                        <img src=<?= base_url("/assets/images/BackgroundImg/value_img_2.webp"); ?> loading="lazy">
+                    </div>
+                </div>
 
             </div>
+
         </section>
 
         <!-- ======================== popular Section End =========================== -->
@@ -138,7 +127,7 @@
                 <div class="row gy-4">
                     <div class="col-lg-6">
                         <div class="seller-item position-relative z-index-1">
-                            <img src="assets/images/shapes/seller-bg.png" class="position-absolute
+                            <img src=<?= base_url("/assets/images/shapes/seller-bg.png"); ?> loading="lazy" class="position-absolute
                     start-0 top-0 z-index--1" alt="">
                             <h3 class="seller-item__title">Vision </h3>
                             <p class="seller-item__desc fw-500 text-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -148,7 +137,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="seller-item bg-two position-relative z-index-1">
-                            <img src="assets/images/shapes/seller-bg-two.png" class="position-absolute
+                            <img src=<?= base_url("/assets/images/shapes/seller-bg-two.png"); ?> loading="lazy" class="position-absolute
                     start-0 top-0 z-index--1" alt="">
                             <h3 class="seller-item__title">Mission</h3>
                             <p class="seller-item__desc fw-500 text-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>

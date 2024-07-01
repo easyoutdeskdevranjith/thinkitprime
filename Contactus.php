@@ -29,7 +29,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 ">
-                            <img src="  assets/images/BackgroundImg/contactus-hero.png" width="400" height="400" />
+                            <img src="<?=base_url('/assets/images/BackgroundImg/contactus-hero.png')?>" width="400" height="400" loading="lazy" />
                     </div>
 
                 </div>
@@ -40,7 +40,7 @@
         <div class="container container-two ">
             <div class="row align-items-center">
                     <div class="col-lg-6 ">
-                    <img src="assets/images/BackgroundImg/contactus-img-1.png" />
+                    <img src="<?=base_url('/assets/images/BackgroundImg/contactus-img-1.png')?>" loading="lazy" />
                     </div>
                     <div class="col-lg-6 ">
                     <div class="banner-inner position-relative pe-lg-5">
